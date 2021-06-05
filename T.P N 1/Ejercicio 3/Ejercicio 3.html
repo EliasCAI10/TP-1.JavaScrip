@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 3</title>
+</head>
+<body>
+	<script type="text/javascript" language="JavaScript">
+let suma=0;
+let num;
+
+do{
+
+ num = prompt("ingrese su numero")
+
+if(num == "cancelar")
+{
+	alert("Ternino el proceso")
+}
+
+else if (parseInt(num) == num) {
+        num = parseInt(num);
+        suma += num;
+    }
+
+else if (isNaN(num)) {
+	alert("Solo permite numeros")
+}
+
+}
+while(confirm("¿Desea seguir?"));
+console.log(suma);
+	</script>
+</body>
+</html>

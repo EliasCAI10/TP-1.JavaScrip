@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 1</title>
+</head>
+<body>
+	<script type="text/javascript" language="JavaScript">
+const nota = prompt("ingrese su nota")
+const nota1=parseInt(nota)
+
+if (isNaN(nota1)) {
+	console.log("Solo permite numeros")
+}
+
+else if (nota>=1 && nota<=3) {
+	console.log("Muy deficiente")
+}
+else if (nota>3 && nota<=5) {
+	console.log("Insuficiente")
+}
+else if (nota==6) {
+	console.log("Suficiente")
+}
+else if (nota==7) {
+	console.log("Bien")
+}
+else if (nota>7 && nota<=9) {
+	console.log("Notable")
+}
+else if (nota==10){
+	console.log("Sobresaliente")
+}
+else{
+	console.log("Vuelva a elegir del 1-10")
+}
+
+	</script>
+</body>
+</html>
